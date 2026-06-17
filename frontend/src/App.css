@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #06b6d4);
+  min-height: 100vh;
+}
+
+.container {
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #e2e8f0;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.form-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 250px;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.doctor-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.doctor-image {
+  font-size: 70px;
+}
+
+.card h2 {
+  color: #1e3a8a;
+}
+
+.card p {
+  color: #555;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.success {
+  margin-top: 25px;
+  text-align: center;
+  color: #22c55e;
+  font-size: 24px;
+  font-weight: bold;
+}
