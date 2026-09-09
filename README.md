@@ -1,4 +1,4 @@
-# Book Doctor App
+# Book Doctor Application
 
 ## Description
 Book Doctor is a healthcare web application developed using React.js, Node.js, and Express.js. It allows users to view doctors, select appointment dates, and book appointments online.
